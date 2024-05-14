@@ -1,0 +1,982 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Exo 2";
+  font-family: "PT Sans";
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.first-page__container {
+  display: flex;
+  gap: 80px;
+  margin-top: 109px;
+  margin-bottom: 67px;
+  max-width: 1240px;
+}
+.first-page__container .hero-info h1 {
+  font-family: "Exo 2";
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.first-page__container p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 40px;
+  color: rgb(107, 107, 108);
+}
+.first-page__container h5 {
+  color: rgb(54, 55, 56);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  border-bottom: 3px solid rgb(255, 206, 80);
+  width: 104px;
+}
+
+.service-section {
+  display: flex;
+  gap: 105px;
+  width: 1240px;
+  height: 341px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  padding: 40px 122px 56px 80px;
+}
+.service-section .one-page {
+  width: 228px;
+}
+.service-section .one-page button {
+  width: 92px;
+  height: 92px;
+  background-color: rgb(233, 233, 236);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+.service-section .one-page span {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+.service-section .one-page p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  margin-top: 16px;
+}
+
+.second-page__container {
+  margin-bottom: 67px;
+}
+.second-page__container .two-page button {
+  width: 92px;
+  height: 92px;
+  background-color: rgb(233, 233, 236);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+.second-page__container .two-page {
+  width: 275px;
+  border-left: 1px solid rgb(215, 215, 221);
+  padding-left: 64px;
+  height: 261px;
+}
+.second-page__container .two-page span {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+.second-page__container .two-page p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  margin-top: 16px;
+}
+
+.three-page button {
+  width: 92px;
+  height: 92px;
+  background-color: rgb(233, 233, 236);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+.three-page {
+  width: 275px;
+  margin-left: 50px;
+  border-left: 1px solid rgb(215, 215, 221);
+  height: 261px;
+  padding-left: 64px;
+}
+.three-page span {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+.three-page p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  margin-top: 16px;
+}
+
+.third-page {
+  margin-bottom: 167px;
+  height: 748px;
+}
+
+.third-page__container {
+  background-image: url(../images/track.png);
+  width: 1240px;
+  height: 452.9px;
+  position: relative;
+}
+.third-page__container h2 {
+  font-family: "Exo 2";
+  position: absolute;
+  top: 178px;
+  left: 90px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+.card-block1 .cart-one button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-one {
+  display: flex;
+  align-items: center;
+}
+
+.card-block1 {
+  display: flex;
+  margin-top: 67px;
+  margin-bottom: 67px;
+  gap: 40px;
+  margin-left: 66px;
+}
+.card-block1 span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+}
+.card-block1 strong {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+.card-block1 .cart-two {
+  margin-left: 200px;
+}
+.card-block1 .cart-two button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.card-block2 {
+  display: flex;
+  gap: 40px;
+  margin-top: 77px;
+  margin-left: 66px;
+}
+.card-block2 .cart-three button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+.card-block2 .cart-four {
+  margin-left: 200px;
+}
+.card-block2 .cart-four button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+.card-block2 strong {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+.card-block2 span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+}
+
+.completed-work-page__container h2 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+  margin-bottom: 32px;
+}
+
+.completed-work-page__container span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+}
+
+.copmlated-work-section {
+  display: flex;
+  gap: 30px;
+}
+
+.machines-equipment {
+  width: 393px;
+  height: 439px;
+  margin-top: 57px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+  margin-bottom: 212px;
+  border-radius: 10px;
+}
+.machines-equipment h3 {
+  font-size: 20px;
+  padding-top: 12px;
+  padding-left: 32px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+.machines-equipment p {
+  font-size: 16px;
+  padding-left: 32px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  width: 350px;
+  margin-top: 12px;
+}
+.machines-equipment strong {
+  width: 92px;
+  height: 27px;
+  padding-left: 32px;
+  padding-bottom: 10px;
+  color: rgb(54, 55, 56);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: left;
+  border-bottom: 3px solid rgb(255, 206, 80);
+}
+
+.clients__container {
+  background: rgb(11, 117, 114);
+  width: 1240px;
+  height: 917px;
+  margin-bottom: 67px;
+  display: flex;
+}
+.clients__container .table {
+  position: relative;
+}
+.clients__container h2 {
+  font-family: "Exo 2";
+  padding-left: 81px;
+  padding-top: 100px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+.clients__container .title {
+  background: rgb(11, 117, 114);
+  position: absolute;
+  width: 588px;
+  left: 32px;
+  top: 154px;
+}
+.clients__container .title .photo {
+  padding: 8px 40px 8px 10px;
+  color: #fff;
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 24px;
+  text-align: left;
+}
+.clients__container .title .name {
+  padding: 8px 40px 8px 10px;
+  color: #fff;
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  cursor: pointer;
+  text-align: left;
+}
+.clients__container .title .manufakture {
+  padding: 8px 40px 8px 10px;
+  color: #fff;
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  cursor: pointer;
+  text-align: left;
+}
+.clients__container .title p:nth-child(4) {
+  border-right: none;
+}
+.clients__container .title .contact-title {
+  padding: 8px 40px 8px 10px;
+  color: #fff;
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  cursor: pointer;
+}
+.clients__container .page-2 strong {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.9px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+.clients__container .page-2 p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  width: 141px;
+}
+
+.table {
+  background-color: #fff;
+  width: 655px;
+  height: 747px;
+  margin-top: 85px;
+  margin-left: 80px;
+  border-radius: 8px;
+  display: block;
+  gap: 194px;
+}
+.table img {
+  margin-top: 28px;
+  margin-left: 41px;
+}
+.table .logo-info span {
+  margin-top: 28px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16.5px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  width: 274px;
+  margin-bottom: 25px;
+}
+.table .logo-info {
+  display: flex;
+  gap: 194px;
+  border-bottom: 1px solid rgb(215, 215, 221);
+  margin-bottom: 600px;
+  width: 608px;
+  margin-left: 23px;
+}
+
+.title {
+  display: flex;
+}
+.title p {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  margin-left: 25px;
+  padding-left: 25px;
+}
+
+.page-1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 260px;
+  top: 160px;
+}
+.page-1 p {
+  margin-top: 60px;
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  padding-left: 10px;
+}
+.page-1 strong {
+  margin-left: 10px;
+}
+
+.group {
+  background: rgb(175, 175, 175);
+}
+
+.page-2 {
+  width: 190px;
+  position: absolute;
+  top: 220px;
+  left: 330px;
+}
+
+.steps-page-one {
+  width: 1185px;
+  margin-top: 48px;
+  height: 245px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  margin-bottom: 24px;
+  margin-left: 49px;
+  display: flex;
+}
+.steps-page-one span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  width: 568px;
+}
+.steps-page-one img {
+  padding-left: 96px;
+  padding-top: 32px;
+  padding-right: 56px;
+}
+.steps-page-one h3 {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+.steps-page-one hr {
+  width: 86px;
+  margin-bottom: 24px;
+  border: 3px solid rgb(255, 206, 80);
+  border-radius: 4px;
+}
+
+.steps__container h2 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+
+.brands-logo {
+  margin-bottom: 100px;
+  display: flex;
+  width: 184px;
+}
+.brands-logo span {
+  border-right: 1px solid rgb(215, 215, 221);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 73px;
+  padding-left: 60px;
+}
+.brands-logo span h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  color: rgb(54, 55, 56);
+  margin-bottom: 14px;
+  margin-top: 32px;
+}
+.brands-logo p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: rgb(107, 107, 108);
+  width: 184px;
+}
+.brands-logo span:nth-child(1) {
+  padding-left: none;
+}
+.brands-logo span:nth-child(4) {
+  border-right: none;
+}
+
+.company-logo-brands__container h2 {
+  font-family: "Exo 2";
+  margin-bottom: 90px;
+  margin-top: 96px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+
+.anton-makarov {
+  display: flex;
+  gap: 40px;
+  padding-left: 32px;
+  border-radius: 10px;
+  padding-top: 32px;
+  border-left: 51px solid rgb(11, 117, 114);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 605px;
+  height: 210px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+}
+.anton-makarov .team-info {
+  margin-top: 5px;
+}
+.anton-makarov h3 {
+  font-family: "Exo 2";
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+.anton-makarov span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+}
+.anton-makarov hr {
+  border: 3px solid rgb(255, 206, 80);
+  border-radius: 4px;
+  margin-top: 16px;
+  width: 86px;
+  margin-bottom: 35px;
+}
+
+.our-team {
+  margin-bottom: 100px;
+  margin-top: 120px;
+}
+.our-team .our-team__container h2 {
+  font-family: "Exo 2";
+  margin-top: 130px;
+  margin-bottom: 72px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+.our-team .social a {
+  margin-right: 15px;
+}
+.our-team .teams {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 30px;
+}
+
+.contact-section__container h2 {
+  margin-bottom: 94px;
+  margin-top: 130px;
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+
+.phone {
+  display: flex;
+  gap: 35px;
+}
+.phone p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+}
+.phone a {
+  font-family: "Exo 2";
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+  text-decoration: none;
+}
+
+.e-mail {
+  margin-top: 50px;
+  display: flex;
+  gap: 35px;
+}
+.e-mail p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+}
+.e-mail a {
+  font-family: "Exo 2";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+  text-decoration: none;
+}
+
+.whatsapp {
+  margin-top: 50px;
+  display: flex;
+  gap: 35px;
+}
+.whatsapp p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+}
+.whatsapp a {
+  font-family: "Exo 2";
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+  text-decoration: none;
+}
+
+.skype {
+  margin-top: 50px;
+  display: flex;
+  gap: 35px;
+}
+.skype p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+  text-decoration: none;
+}
+.skype a {
+  font-family: "Exo 2";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+  text-decoration: none;
+}
+
+.contact-info {
+  margin-bottom: 100px;
+}
+
+.contacts {
+  display: flex;
+}
+.contacts .proceedings {
+  margin-left: 246px;
+  border-radius: 5px;
+  border: 1px solid rgb(233, 234, 242);
+  width: 794px;
+  height: 383px;
+  padding: 40px 48px;
+  background: rgb(249, 249, 251);
+}
+.contacts .proceedings span {
+  border-bottom: 1px solid rgb(233, 234, 242);
+  display: flex;
+  gap: 56px;
+  padding: 16px;
+}
+.contacts .proceedings span:nth-child(5) {
+  border-bottom: none;
+}
+.contacts .proceedings p {
+  width: 175px;
+}
+
+.proceedings p {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(107, 107, 108);
+}
+
+.proceedings span strong {
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: rgb(54, 55, 56);
+}
+
+.video-section__container {
+  width: 1245px;
+  height: 667px;
+}
+.video-section__container .video-section {
+  margin-bottom: 100px;
+}
+
+footer {
+  background: rgb(11, 117, 114);
+  height: 365px;
+  margin-top: 166px;
+  margin-bottom: 100px;
+}
+footer .logo-footer {
+  padding-top: 59px;
+}
+footer .footer__container {
+  display: flex;
+  gap: 134px;
+}
+footer .logo-footer a {
+  font-family: "sans-serif";
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 90px;
+  letter-spacing: 0.16em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+footer .footer-nav a {
+  font-family: "Exo 2";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  letter-spacing: 0.16em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+footer .footer-nav {
+  margin-top: 80px;
+}
+footer .footer-info a {
+  font-family: "Exo 2";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  letter-spacing: 0.16em;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+footer .footer-info {
+  margin-top: 80px;
+}
+footer .footer-social-links a {
+  text-decoration: none;
+  font-family: "Exo 2";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+footer .footer-social-links {
+  margin-top: 80px;
+}
+
+.footer-social-links button {
+  padding: 7px 41px 8px 11px;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  background: rgb(255, 150, 25);
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+.footer-social-links button span {
+  margin-left: 8px;
+}
+
+.footer-social-links button:before {
+  content: "";
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.footer-social-links button:active:after {
+  background: transparent;
+}
+
+.footer-social-links button:hover:before {
+  opacity: 1;
+}
+
+.footer-social-links button:after {
+  z-index: -1;
+  position: absolute;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+footer p {
+  font-family: "Exo 2";
+  margin-top: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.16em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.brands-logo .cosmos p {
+  width: 220px;
+}
+
+.brands-logo .bank img {
+  margin-bottom: 42px;
+}
+
+.brands-logo .layer img {
+  margin-bottom: 50px;
+}
+
+.brands-logo .lukoyimg {
+  margin-bottom: 55px;
+}
+
+@media screen and (max-width: 1240px) {
+  .first-page__container {
+    max-width: 992px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .hero-info p {
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    width: 690px;
+    margin-left: 25px;
+  }
+  .hero-picture img {
+    width: 690px;
+    height: 425px;
+    margin-bottom: 67px;
+    margin-left: 25px;
+  }
+  h5 {
+    text-align: center;
+    margin-left: 300px;
+    margin-bottom: 55px;
+    font-family: "PT Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+  }
+  .four-page .copmlated-work-section .machines-equipment:nth-child(3) {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
